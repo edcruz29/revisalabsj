@@ -1,5 +1,5 @@
 :root {
-  --background: #f5f2e7;
+  --background: #fff;
   --blue: #2666cf;
   --gray: #395b64;
   --titulos: #363f5f;
@@ -208,4 +208,55 @@ button:hover {
   align-items: center;
   border: 2px solid var(--gray);
   border-radius: 6px;
+}
+footer {
+  margin-top: 50px;
+  background-color: var(--blue);
+  width: 100%;
+  height: 237px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo img {
+  width: 250px;
+  margin-bottom: 8px;
+}
+.footer-logo i {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.footer-logo span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer-logo p {
+  color: var(--text);
+  font-size: 1rem;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  transition: filter 0.2s;
+}
+.footer-social i {
+  font-size: 1.8rem;
+  margin-right: 50px;
+}
+.footer-social a:hover {
+  filter: brightness(0.8);
 }
