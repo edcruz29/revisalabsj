@@ -122,12 +122,15 @@ button:hover {
   font-size: 2rem;
   font-weight: bold;
 }
+.servicos {
+  width: 100%;
+}
 .card-wraper {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   margin-bottom: 3rem;
@@ -155,4 +158,54 @@ button:hover {
   border-bottom: 4px solid var(--cerulean);
   gap: 100px;
   margin-left: 30px;
+}
+.contato {
+  width: 100%;
+}
+.contato h2 {
+  margin-bottom: 1rem;
+  color: var(--titulos);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contato-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contato-wraper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contato-wraper p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.contato ul {
+  line-height: 26px;
+}
+.contato li {
+  list-style: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contato i {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  color: var(--titulos);
+}
+.mapa {
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--gray);
+  border-radius: 6px;
 }
