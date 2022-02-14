@@ -200,11 +200,10 @@ button:hover {
   color: var(--titulos);
 }
 .mapa {
-  margin: 0 auto;
-  width: 500px;
-  margin-top: 50px;
+  margin: auto;
+  max-width: 350px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   border: 2px solid var(--gray);
   border-radius: 6px;
