@@ -299,6 +299,8 @@ footer {
   }
   .sobre {
     margin-top: 100px;
+    padding: 0 30px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 930px) {
@@ -351,5 +353,45 @@ footer {
     margin-bottom: 20px;
     margin-left: 0;
     width: 80%;
+  }
+
+  .contato h2 {
+    font-size: 2rem;
+  }
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+  }
+  .contato-wraper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contato-wraper p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+  .contato ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .contato li {
+    list-style: none;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .contato i {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: var(--titulos);
   }
 }
