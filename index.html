@@ -48,22 +48,23 @@
           <div class="banner-text">
             <h2>Seja bem vindo ao RevisaLab</h2>
             <h1>Exame Toxicológico</h1>
-            <p>telefone:112020-2121</p>
-            <p>Endereço:Rua xyz, hafafaf - bairro</p>
+            <p>telefone: 112020-2121</p>
+            <p>Endereço: Rua xyz, hafafaf - bairro</p>
           </div>
           <div class="banner-img">
             <img src="./assets/img/banner.jpg" alt="banner" />
           </div>
         </div>
         <div class="descricao">
-          <p id="descricao">
+          <p id="descricao ">
             Exame Toxicológico Cabelo e Pelo - Dinheiro, Pix e Débito: R$ 135,00
             ou R$ 145,00 12X no cartão sem juros
           </p>
           <a
             href="https://api.whatsapp.com/send?phone=5512996707585&text=Ol%C3%A1%20gostaria%20de%20fazer%20o%20Exame%20Toxicol%C3%B3gico"
             target="blank"
-            ><button class="generic-button">Contato</button></a>
+            ><button class="generic-button">Contato</button>
+          </a>
         </div>
       </section>
       <section class="sobre" id="sobre">
@@ -102,10 +103,10 @@
             <a href="/servicos/saliva.html"><button class="generic-button">Saiba Mais!</button></a>
           </div>
           <div class="card-container">
-            <img src="./assets/img/saliva.jpg" alt="ilustrativo" />
+            <img src="./assets/img/teste-rapido-covid.jpg" alt="ilustrativo" />
             <h3>Exame Covid</h3>
             <span>R$ 135,00</span>
-            <p>24 horas após a entrada das amostras</p>
+            <p>24 horas</p>
             <a href="/servicos/covid.html"><button class="generic-button">Saiba Mais!</button></a>
           </div>
         </div>
@@ -148,6 +149,17 @@
         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
       </div>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".card-container", { delay: 200 });
+    </script>
     <script
       src="https://kit.fontawesome.com/72b828f62d.js"
       crossorigin="anonymous"
