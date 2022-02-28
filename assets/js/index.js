@@ -1,7 +1,11 @@
 const btnMobile = document.getElementById("btn-mobile");
+const body = document.getElementById("body");
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+body.addEventListener("click", closeMenu);
+
 function toggleMenu(event) {
   if (event.type === "touchstart") event.preventDefault();
   const nav = document.getElementById("nav");
@@ -13,4 +17,9 @@ function toggleMenu(event) {
   } else {
     event.currentTarget.setAttribute("aria-label", "Abrir Menu");
   }
+}
+
+function closeMenu() {
+  const nav = document.getElementById("nav");
+  nav.classList.remove("active");
 }

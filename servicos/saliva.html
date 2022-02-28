@@ -15,25 +15,26 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="../assets/js/index.js" defer></script>
     <link rel="stylesheet" href="../assets/style/style.css" />
-    <title>RevisaLab - Exame Toxicológico - Saliva</title>
+    <title>RevisaLab - Exame Toxicológico - Pelos e Cabelos</title>
   </head>
-  <body>
+  <body id="body">
     <header>
-      <nav>
-        <div>
-          <a href="/"
-            ><img
-              src="../assets/img/transparente.png"
-              alt="logorevisa"
-              class="logo"
-          /></a>
-        </div>
-        <div class="nav-items">
-          <a href="/" class="nav-item">Início</a>
-          <a href="#sobre" class="nav-item">Sobre</a>
-          <a href="#servicos" class="nav-item">Exames</a>
-          <a href="#contato" class="nav-item">Contato</a>
+      <div>
+        <a href="/"
+          ><img
+            src="../assets/img/revisalablogo.png"
+            alt="logorevisa"
+            class="logo"
+        /></a>
+      </div>
+      <nav id="nav">
+       <button id="btn-mobile" aria-controls="menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">
+        <span id="hamburger"></span>
+       </button>
+        <ul class="nav-items" id="menu" role="menu">
+          <li><a href="/" class="nav-item">Início</a></li>
         </div>
       </nav>
     </header>
